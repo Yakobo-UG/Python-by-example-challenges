@@ -2,5 +2,5 @@
 num = int(input("Enter number: "))
 while num < 5:
     num = int(input("Enter number: "))
-    if num > 5: 
-        print ("The last number you enter  was ", num)
+print ("The last number you enter  was ", num)
+    
