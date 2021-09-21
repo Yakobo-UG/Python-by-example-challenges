@@ -1,0 +1,10 @@
+#Open the Names.txt file and display the data in Python.
+NewFile = open("Names.txt", "w")
+NewFile.write("John \n")
+NewFile.write("Zick \n")
+NewFile.write("luther \n")
+NewFile.write("Mark \n")
+NewFile.write("Jenin \n")
+NewFile.close()
+NewFile = open("Names.txt", "r")
+print(NewFile.read())
