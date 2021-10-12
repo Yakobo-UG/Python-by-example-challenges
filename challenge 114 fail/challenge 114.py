@@ -4,7 +4,10 @@ start = str(input("ENter a start year: "))
 end = str(input("Enter an end year: "))
 file = open("Books.csv", "r")
 reader = csv.reader(file)
+tmp = []
 for i in file:
-    for i in range(int(start) , int(end)):
-        print(i)
-
+    tmp.append(i)
+x = 0
+for i in range(int(start) , int(end)):
+    print(i)
+#failed
